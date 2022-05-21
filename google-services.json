@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "195443956181",
+    "project_id": "kay1-2dc7d",
+    "storage_bucket": "kay1-2dc7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195443956181:android:5a92f692d295a31af6055c",
+        "android_client_info": {
+          "package_name": "com.royalweb.kay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195443956181-kre4e410td5vqoo4qfkua6hbc4ubl3ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGCgb33uVEWB2NJcTtRNg-DaZHPHDmhAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195443956181-kre4e410td5vqoo4qfkua6hbc4ubl3ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
