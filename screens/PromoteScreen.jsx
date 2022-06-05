@@ -532,12 +532,7 @@ const PromoteScreen = ({ navigation, route }) => {
                             </View>
                             <View style={styles.promotionCardRowContentWrap}>
                               <Text style={[styles.valueText, rtlText]}>
-                                {getPrice(config.payment_currency, {
-                                  pricing_type: "price",
-                                  price_type: "fixed",
-                                  price: item.price,
-                                  max_price: 0,
-                                })}
+                                {`${config.payment_currency.id} ${item.price}`}
                               </Text>
                             </View>
                           </View>

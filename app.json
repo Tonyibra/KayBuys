@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Kay",
+    "name": "KayBuys",
     "slug": "kay",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "plugins": [
       [
         "expo-notifications",
@@ -39,7 +39,7 @@
     "ios": {
       "usesAppleSignIn": true,
       "supportsTablet": true,
-      "bundleIdentifier": "com.royalweb.kay",
+      "bundleIdentifier": "com.royalweb.kaybuys",
       "buildNumber": "1",
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to capture and upload user profile image and Listing Image to the server.",
