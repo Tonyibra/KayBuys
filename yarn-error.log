@@ -2,29 +2,29 @@ Arguments:
   /usr/local/bin/node /usr/local/bin/yarn
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/tonyibra/Library/Android/sdk/emulator:/Users/tonyibra/Library/Android/sdk/platform-tools:/Users/tonyibra/Library/Android/sdk/tools:/Users/tonyibra/Library/Android/sdk/tools/bin:/Users/tonyibra/Library/Android/sdk/emulator:/Users/tonyibra/Library/Android/sdk/platform-tools:/Users/tonyibra/Library/Android/sdk/tools:/Users/tonyibra/Library/Android/sdk/tools/bin
 
 Yarn version: 
-  1.22.17
+  1.22.19
 
 Node version: 
-  16.13.2
+  16.15.1
 
 Platform: 
-  darwin x64
+  darwin arm64
 
 Trace: 
   Invariant Violation: expected hoisted manifest for "@dudigital/react-native-zoomable-view#react-native#@react-native-community/cli#@react-native-community/cli-hermes"
-      at invariant (/usr/local/lib/node_modules/yarn/lib/cli.js:2314:15)
-      at _loop2 (/usr/local/lib/node_modules/yarn/lib/cli.js:95100:9)
-      at PackageHoister.init (/usr/local/lib/node_modules/yarn/lib/cli.js:95170:19)
-      at PackageLinker.getFlatHoistedTree (/usr/local/lib/node_modules/yarn/lib/cli.js:48922:20)
-      at PackageLinker.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:48933:27)
+      at invariant (/usr/local/lib/node_modules/yarn/lib/cli.js:2318:15)
+      at _loop2 (/usr/local/lib/node_modules/yarn/lib/cli.js:91029:9)
+      at PackageHoister.init (/usr/local/lib/node_modules/yarn/lib/cli.js:91099:19)
+      at PackageLinker.getFlatHoistedTree (/usr/local/lib/node_modules/yarn/lib/cli.js:48549:20)
+      at PackageLinker.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:48560:27)
       at Generator.next (<anonymous>)
       at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:328:14
       at new Promise (<anonymous>)
-      at new F (/usr/local/lib/node_modules/yarn/lib/cli.js:5301:28)
+      at new F (/usr/local/lib/node_modules/yarn/lib/cli.js:5305:28)
 
 npm manifest: 
   {
@@ -44,15 +44,15 @@ npm manifest:
       "@material-ui/core": "^4.11.0",
       "@material-ui/icons": "^4.9.1",
       "@react-native-community/datetimepicker": "3.5.2",
-      "@react-native-community/masked-view": "0.1.10",
       "@react-native-community/netinfo": "6.0.2",
-      "@react-native-community/slider": "4.1.7",
+      "@react-native-community/slider": "^4.2.2",
       "@react-navigation/bottom-tabs": "^5.8.0",
       "@react-navigation/native": "^5.9.4",
       "@react-navigation/stack": "^5.9.0",
       "@stripe/stripe-react-native": "0.2.2",
       "apisauce": "^2.0.1",
       "expo": "^43.0.4",
+      "expo-ads-admob": "~11.0.3",
       "expo-apple-authentication": "~4.0.3",
       "expo-device": "~4.0.3",
       "expo-facebook": "~12.0.3",
@@ -95,11 +95,10 @@ npm manifest:
       "react-native-vector-icons": "^7.0.0",
       "react-native-web": "0.17.1",
       "react-native-webview": "11.13.0",
-      "react-native-webview-leaflet": "^5.0.2",
       "react-native-youtube-iframe": "^2.0.1",
       "react-navigation": "^4.4.2",
       "yup": "^0.29.3",
-      "expo-ads-admob": "~11.0.3"
+      "expo-updates": "~0.10.15"
     },
     "devDependencies": {
       "@babel/core": "^7.12.9",
