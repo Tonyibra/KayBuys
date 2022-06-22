@@ -3,6 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { LogBox } from "react-native";
 import * as Linking from "expo-linking";
 import * as Notifications from "expo-notifications";
+import { requestTrackingPermissionsAsync } from "expo-tracking-transparency";
 
 // Custom Components
 import Screen from "./components/Screen";
@@ -11,6 +12,15 @@ import { StateProvider } from "./StateProvider";
 import reducer, { initialState } from "./reducer";
 
 const App = () => {
+	React.useEffect(() => {
+		(async () => {
+			const { status } = await requestTrackingPermissionsAsync();
+			if (status === "granted") {
+				console.log("Yay! I have user permission to track data");
+			}
+		})();
+	}, []);
+
 	const prefix = Linking.createURL("/");
 	Notifications.setNotificationHandler({
 		handleNotification: async () => ({
